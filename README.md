@@ -9,5 +9,10 @@ Location Page: Offers details about the physical locations of watch stores or bo
 Contact Us Page: Enables users to get in touch with the website administrators for inquiries or feedback.
 
 # Documentations
-Home Page
+**Home Page**
+
 ![Screenshot 2024-03-15 205555](https://github.com/Wardth/HTML-Project/assets/115174247/cddb1a34-6c16-4a8b-b6f7-4e3bf1187b28)
+
+**Product Page**
+
+
