@@ -1,0 +1,205 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 5%;
+    background-color: white;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-family: 'Nanum Pen';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    font-style: italic;
+}
+
+.navbar .navbar-main a{
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-main a:hover{
+    color: black;
+}
+
+.navbar .navbar-main a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-main a:hover::after{
+    transform: scaleX(1);
+}
+
+.navbar .navbar-extra a{
+    color: black;
+    margin: 0 0.5rem;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#bg-video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+  
+#watch-brands {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+  
+#watch-brands h2{
+    font-family: Nanum Pen;
+    font-style:  Regular;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+  
+.brand-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.brand-images img{
+    justify-content: center;
+    width: 160px;
+    height: 110px;
+    margin: 0.5rem;
+    padding: 1.3rem;
+    object-fit: contain;
+    border: none; 
+    border-radius: 10px; /* Menambahkan sudut bulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Menambahkan efek bayangan */
+}
+
+/* Media Query untuk Tablet */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 1rem 5%;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar .navbar-main {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: white;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-main.active {
+        right: 0;
+    }
+
+    .navbar .navbar-main a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-main a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-main :hover::after {
+        transform: scaleX(0.2);
+        color: white;
+    }
+
+    #watch-brands {
+        padding: 30px;
+    }
+
+    #watch-brands h2 {
+        font-size: 24px;
+    }
+
+    .brand-images img {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+/* Media Query untuk Perangkat Mobile */
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 0.8rem 5%;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    #watch-brands h2 {
+        font-size: 20px;
+    }
+
+    .brand-images img {
+        width: 100px;
+        height: 60px;
+    }
+}

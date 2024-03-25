@@ -1,0 +1,212 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: black;
+    /* min-height: 5700px; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 5%;
+    background-color: white;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-family: 'Nanum Pen';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    font-style: italic;
+}
+
+.navbar .navbar-main a{
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-main a:hover{
+    color: black;
+}
+
+.navbar .navbar-main a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-main a:hover::after{
+    transform: scaleX(1);
+}
+
+.navbar .navbar-extra a{
+    color: black;
+    margin: 0 0.5rem;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.Contact{
+    padding: 8rem 10% 1.4rem;
+}
+  
+.Contact h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+  
+.Contact form div{
+    margin-bottom: 10px;
+}
+  
+.Contact form label{
+    display: block;
+
+}
+  
+.Contact form input[type="text"],
+.Contact form input[type="email"],
+.Contact form textarea {
+    width: 100%;
+    padding: 5px;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+  
+.Contact form input[type="checkbox"]{
+    margin-right: 5px;
+}
+  
+.Contact form button{
+    padding: 5px 10px;
+    background-color: black; 
+    color: white; 
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1rem 0.3rem;
+    margin-top: 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+}
+
+footer links {
+    margin-bottom: 1.4rem;
+}
+
+footer .links a {
+    color: #fff; 
+    padding: 0.7rem 1rem;
+}
+
+/* Media Query untuk Tablet */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem 5%;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar .navbar-main {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: white;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-main.active {
+        right: 0;
+    }
+
+    .navbar .navbar-main a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-main a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-main :hover::after {
+        transform: scaleX(0.2);
+        color: white;
+    }
+
+    .Contact {
+        padding: 6rem 5% 1.4rem;
+    }
+
+    .Contact h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Media Query untuk Perangkat Mobile */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.8rem 5%;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    .Contact {
+        padding: 4rem 5% 1.4rem;
+    }
+
+    .Contact h2 {
+        font-size: 1.8rem;
+    }
+}

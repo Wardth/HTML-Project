@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoods</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"/>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="./style/ProductPage.css">  
+
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">WatcHGoods</a>
+        <div class="navbar-main">
+          <a href="./index.html">Home</a>
+          <a href="./ProductPage.html">Products</a>
+          <a href="./AboutPage.html">About Us</a>
+          <a href="./locationPage.html">Locations</a>
+          <a href="./ContactPage.html">Contact Us</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+       </div>
+      </nav>
+
+      <section class="Product" id="Product">
+        <h2>Our Products</h2>
+        <div class="content">
+          <div class="button-content">
+            <button type="button" class="btn active" onclick="filterByBrand('')">All</button>
+            <button type="button" class="btn" onclick="filterByBrand('Rolex')" data-brand="Rolex">Rolex</button>
+            <button type="button" class="btn" onclick="filterByBrand('Richard Mille')" data-brand="Richard Mille">Richard Mille</button>
+            <button type="button" class="btn" onclick="filterByBrand('Jaeger-LeCoultre')" data-brand="Jaeger-LeCoultre">Jaeger-LeCoultre</button>
+            <button type="button" class="btn" onclick="filterByBrand('Omega')" data-brand="Omega">Omega</button>
+            <button type="button" class="btn" onclick="filterByBrand('Zenith')" data-brand="Zenith">Zenith</button>
+  
+            <div class="gallery">
+              <div class="item">
+                <img src="./assets/img/Watch/daydate.png" alt="Rolex" class="rolex" />
+                <h3>Rolex</h3>
+                <h4>Day-Date</h4>
+                <p>Rp 850.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/daytona.png" alt="Rolex" />
+                <h3>Rolex</h3>
+                <h4>Cosmograph Daytona</h4>
+                <p>Rp 530.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/datejust.png" alt="Rolex" />
+                <h3>Rolex</h3>
+                <h4>Datejust</h4>
+                <p>Rp 120.000.000</p>
+              </div>
+  
+              <div class="item">
+                <img src="./assets/img/Watch/61-01.png" width="50" height="50" alt="Richard Mille"/>
+                <h3>Richard Mille</h3>
+                <h4>RM 61-01</h4>
+                <p>Rp 3.200.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/67-01.png" width="50" height="50" alt="Richard Mille"/>
+                <h3>Richard Mille</h3>
+                <h4>RM 67-01</h4>
+                <p>Rp 2.800.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/67-02.png" width="50" height="50" alt="Richard Mille"/>
+                <h3>Richard Mille</h3>
+                <h4>RM 67-02</h4>
+                <p>Rp 4.100.000.000</p>
+              </div>
+  
+              <div class="item">
+                <img src="./assets/img/Watch/Master_Control.png" alt="Jaeger-LeCoultre" />
+                <h3>Jaeger-LeCoultre</h3>
+                <h4>Master Control Date</h4>
+                <p>Rp 130.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/master_ultra_thin.png" alt="Jaeger-LeCoultre" />
+                <h3>Jaeger-LeCoultre</h3>
+                <h4>Master Ultra Thin Moon</h4>
+                <p>Rp 150.000.000</p>
+              </div>
+              <div class="item">
+                <img
+                  src="./assets/img/Watch/reverso_classic_monoface.png"alt="Jaeger-LeCoultre" />
+                <h3>Jaeger-LeCoultre</h3>
+                <h4>Polaris Date</h4>
+                <p>Rp 100.000.000</p>
+              </div>
+  
+              <div class="item">
+                <img src="./assets/img/Watch/CONSTELLATION.png" alt="Omega" />
+                <h3>Omega</h3>
+                <h4>Constellation</h4>
+                <p>Rp 113.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/AQUA_TERRA_150M.png" alt="Omega" />
+                <h3>Omega</h3>
+                <h4>Aqua Terra 150M</h4>
+                <p>Rp 130.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/PLANET_OCEAN_600M1.png" alt="Omega" />
+                <h3>Omega</h3>
+                <h4>Planet Ocean 600M</h4>
+                <p>Rp 113.600.000</p>
+              </div>
+  
+              <div class="item">
+                <img src="./assets/img/Watch/defy skyline 36.png" alt="Zenith" />
+                <h3>Zenith</h3>
+                <h4>Defy Skyline 36</h4>
+                <p>Rp 120.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/defy_21.png" alt="Zenith" />
+                <h3>Zenith</h3>
+                <h4>Defy 21</h4>
+                <p>Rp 120.000.000</p>
+              </div>
+              <div class="item">
+                <img src="./assets/img/Watch/defy_skyline.png" alt="Zenith" />
+                <h3>Zenith</h3>
+                <h4>Defy Skyline</h4>
+                <p>Rp 130.000.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="socials">
+          <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+              <a href="#"><i data-feather="twitter"></i></a>
+        </div>
+        <div class="links">
+          <a href="./index.html">Home</a>
+          <a href="./ProductPage.html">Product</a>
+          <a href="./AboutPage.html">About</a>
+          <a href="./locationPage.html">Location</a>
+          <a href="./ContactPage.html">Contact</a>
+        </div>
+      </footer>
+
+      <script>
+        feather.replace()
+      </script>
+      <script src="./js/ProductPage.js"></script>
+</body>
+</html>
