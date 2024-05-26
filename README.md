@@ -1,6 +1,8 @@
 # Simple Website - WatcHGoods
 WatcHGoods is a website project aimed at providing information about luxury watches. This project showcases various luxury watch brands and models, catering to enthusiasts and potential buyers.this website using HTML, CSS, and JavaScript.
 
+**[View Website](https://wardth.github.io/HTML-Project/)**
+
 ## Features Overview
 - **Home Page**: Introduces the website and highlights featured watches.
 - **Product Page**: Displays a collection of luxury watches with detailed descriptions and images.
