@@ -15,28 +15,6 @@ WatcHGoods is a website project aimed at providing information about luxury watc
     ```
 2. Open the `index.html` file in your browser to view the website.
 
-
-## Project Structure
-
-```plaintext
-WatcHGoods/
-│
-├── index.html          # Home Page
-├── products.html       # Product Page
-├── about.html          # About Us Page
-├── location.html       # Location Page
-├── contact.html        # Contact Us Page
-│
-├── css/
-│   └── styles.css      # Main CSS file
-│
-├── js/
-│   └── scripts.js      # Main JavaScript file
-│
-└── images/
-    └── ...             # Product and other images
-```
-
 # Documentations
 
 **Home Page :** 
