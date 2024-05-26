@@ -11,7 +11,7 @@ WatcHGoods is a website project aimed at providing information about luxury watc
 ## Installation
 1. Clone the repository
     ```sh
-    git clone https://github.com/username/WatcHGoods.git
+    git clone https://github.com/Wardth/WatcHGoods.git
     ```
 2. Open the `index.html` file in your browser to view the website.
 
