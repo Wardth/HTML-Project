@@ -15,7 +15,7 @@ WatcHGoods is a website project aimed at providing information about luxury watc
     ```
 2. Open the `index.html` file in your browser to view the website.
 
-# Documentations
+## Documentations
 
 **Home Page :** 
 ![Screenshot 2024-03-15 205555](https://github.com/Wardth/HTML-Project/assets/115174247/cddb1a34-6c16-4a8b-b6f7-4e3bf1187b28)
