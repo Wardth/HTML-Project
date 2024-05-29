@@ -20,18 +20,20 @@ WatcHGoods is a website project aimed at providing information about luxury watc
 ## Documentations
 
 **Home Page :** 
-![Screenshot 2024-03-15 205555](https://github.com/Wardth/HTML-Project/assets/115174247/cddb1a34-6c16-4a8b-b6f7-4e3bf1187b28)
+![WatcHGoods - HomePage](https://github.com/Wardth/HTML-Project/assets/115174247/028aee50-7b3c-4620-a4d4-01364900d032)
 
 **Product Page :**
-![Screenshot 2024-03-15 205658](https://github.com/Wardth/HTML-Project/assets/115174247/60bc93cc-792a-43c1-a896-0d2918dc402e)
+![screencapture-wardth-github-io-HTML-Project-ProductPage-html-2024-05-28-21_22_40](https://github.com/Wardth/HTML-Project/assets/115174247/a720072c-e9ea-44ae-863c-93d04e53a5de)
 
 **About Us Page :**
-![Screenshot 2024-03-15 205751](https://github.com/Wardth/HTML-Project/assets/115174247/fbb44b0a-a469-4415-a486-0583cf49b083)
+![WatcHGoods - AboutPage](https://github.com/Wardth/HTML-Project/assets/115174247/a52d9c4f-aeaf-4b80-88ec-084c290c1d9d)
+
 
 **Location Page :**
-![Screenshot 2024-03-15 205914](https://github.com/Wardth/HTML-Project/assets/115174247/0e240437-66f7-49ad-9a0d-7178e9d1aa87)
+![WatcHGoods - LocationPage](https://github.com/Wardth/HTML-Project/assets/115174247/e4efc61c-96d7-4310-a9ff-b9dddebc2d8b)
 
 **Contact Us Page :**
-![Screenshot 2024-03-15 205952](https://github.com/Wardth/HTML-Project/assets/115174247/32cfc1df-6d05-4529-92df-af6e41e61262)
+![WatcHGoods - ContactPage](https://github.com/Wardth/HTML-Project/assets/115174247/47f555e6-aa15-44cd-80ca-270b18b73470)
+
 
 
