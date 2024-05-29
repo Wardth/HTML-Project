@@ -4,11 +4,11 @@ WatcHGoods is a website project aimed at providing information about luxury watc
 **[View Website](https://wardth.github.io/HTML-Project/)**
 
 ## Features Overview
-- **Home Page**: Introduces the website and highlights featured watches.
-- **Product Page**: Displays a collection of luxury watches with detailed descriptions and images.
-- **About Us Page**: Provides information about the store.
-- **Location Page**: Offers details about the physical locations of watch stores or boutiques.
-- **Contact Us Page**: Enables users to get in touch with the website administrators for inquiries or feedback.
+- **Home Page:** Introduces the website and highlights featured watches.
+- **Product Page:** Displays a collection of luxury watches with detailed descriptions and images.
+- **About Us Page:** Provides information about the store.
+- **Location Page:** Offers details about the physical locations of watch stores or boutiques.
+- **Contact Us Page:** Enables users to get in touch with the website administrators for inquiries or feedback.
 
 ## Installation
 1. Clone the repository
