@@ -28,7 +28,6 @@ WatcHGoods is a website project aimed at providing information about luxury watc
 **About Us Page :**
 ![WatcHGoods - AboutPage](https://github.com/Wardth/HTML-Project/assets/115174247/a52d9c4f-aeaf-4b80-88ec-084c290c1d9d)
 
-
 **Location Page :**
 ![WatcHGoods - LocationPage](https://github.com/Wardth/HTML-Project/assets/115174247/e4efc61c-96d7-4310-a9ff-b9dddebc2d8b)
 
